@@ -1,2 +1,2 @@
-# hackerRank-Algorithms
-All my hackerrank algorithm exercises
+# Algorithms
+All my algorithm exercises
