@@ -1,2 +1,2 @@
 # Algorithms
-All my algorithm exercises
+All my hackerrank and leetcode exercises
