@@ -1,13 +1,12 @@
 /*
-  Criar um escada com #
-  Esta escada tem tamnho e base = n
+  Criar uma escada com #
+  Esta escada tem tamanho e base = n
   Temos que imprimir uma escada ao final da função, como por exemplo:
         #
-       ##
+      ##
       ###
-     ####
-
-  Lembrando que ultima linha deve conter 0 espaços
+    ####
+    #####
 
   EXEMPLO:
   n = 6
@@ -38,7 +37,7 @@ const StairCase = (n) => {
   return hashString;
 }
 
-const n = 6;
+const n = 10;
 const result = StairCase(n);
 console.log(result);
 
@@ -48,5 +47,6 @@ console.log(result);
   
   1. Recebos um valor n, o n definira o tamanho e base da nossa escada.
   2. Declaramos um variável height e hasstring, onde armazenaremos nossas strings, altura e base n.
-  3. Criaremos um loop com tamanho exato de n, outro loop para diminuir os espaços em e outro para acrecentar as #
+  3. Criaremos um loop com tamanho exato de n, outro loop para adicionarmos os espaços em e outro para acrecentar as #
+  4. Por fim, um quebra linha ao final do principal loop.
 */
