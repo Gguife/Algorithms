@@ -11,7 +11,9 @@ function timeConversion(s) {
       hours = 0;
   }
   
-  hours = String(hours).padStart(2, "0");
+  if(hours < 10){
+    hours = "0" + hours;
+  }
   
   const militaryTime = `${hours}:${minutes}:${seconds}`;
   console.log(militaryTime);
