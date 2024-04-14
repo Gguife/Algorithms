@@ -1,15 +1,3 @@
-/*
-Você recebe duas listas vinculadas não vazias que representam dois números inteiros não negativos. 
-Os dígitos são armazenados em ordem inversa e cada um de seus nós contém um único dígito. 
-Adicione os dois números e retorne a soma como uma lista vinculada.
-
-Você pode assumir que os dois números não contêm nenhum zero à esquerda, exceto o próprio número 0.
-
-Entrada: l1 = [2,4,3], l2 = [5,6,4]
-  Saída: [7,0,8]
-  Explicação: 342 + 465 = 807.
-*/
-
 const addTwoNumbers = (l1, l2) =>{
   let newListNode = new ListNode(0);
   let headOfNewListNode = newListNode;
