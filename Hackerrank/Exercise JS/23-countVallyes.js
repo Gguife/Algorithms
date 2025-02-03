@@ -39,3 +39,10 @@ function countVallyes(steps, path) {
 
   return valleys;
 }
+
+
+const steps = 8;
+const path = 'DDUUUUDD'
+const result = countVallyes(steps, path);
+
+console.log(result);
