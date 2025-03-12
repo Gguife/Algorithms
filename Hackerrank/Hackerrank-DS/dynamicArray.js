@@ -33,7 +33,3 @@ let queries = [
 ];
 
 console.log(dynamicArray(n, queries));
-
-
-
-// para que essa funcao serve
